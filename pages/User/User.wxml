@@ -1,0 +1,5 @@
+<!--pages/User/User.wxml-->
+<view class="topNav">
+  <image src="../../image/logo.png"></image>
+</view>
+<text>pages/User/User.wxml</text>

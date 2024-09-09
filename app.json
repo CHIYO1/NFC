@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/Store/Store",
+    "pages/Show/Show",
+    "pages/Artists/Artists",
+    "pages/User/User"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "inner flow",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/Store/Store",
+        "iconPath": "image/tabBar/store.png",
+        "selectedIconPath":"image/tabBar/store.png",
+        "text": "商店"
+      },
+      {
+        "pagePath": "pages/Show/Show",
+        "iconPath": "image/tabBar/show.png",
+        "selectedIconPath":"image/tabBar/show.png",
+        "text": "展览"
+      },
+      {
+        "pagePath": "pages/Artists/Artists",
+        "iconPath": "image/tabBar/artists.png",
+        "selectedIconPath":"image/tabBar/artists.png",
+        "text": "艺术家"
+      },
+      {
+        "pagePath": "pages/User/User",
+        "iconPath": "image/tabBar/users.png",
+        "selectedIconPath":"image/tabBar/users.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
