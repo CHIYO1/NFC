@@ -1,0 +1,5 @@
+<!--pages/Artists/Artists.wxml-->
+<view class="topNav">
+  <image src="../../image/logo.png"></image>
+</view>
+<text>pages/Artists/Artists.wxml</text>
