@@ -5,7 +5,53 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    commoditys:[
+      {
+        path:"../../image/commodity/1.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/2.png",
+        name:"Hirono重塑之沙手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/3.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/4.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/5.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/6.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/7.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/8.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      },
+      {
+        path:"../../image/commodity/9.png",
+        name:"Hirono x Polar 共存手办",
+        type:"手办"
+      }
+    ]
   },
 
   /**

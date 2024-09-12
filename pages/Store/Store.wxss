@@ -1,6 +1,6 @@
 /* pages/Store/Store.wxss */
 .topNav{
-  height: 200rpx;
+  height: 150rpx;
   display: flex;
   align-items: center;
 }
@@ -8,4 +8,37 @@
 .topNav image{
   height: 120rpx;
   width: 350rpx;
+}
+
+.content{
+  background-color: whitesmoke;
+  height: 950rpx;
+}
+
+.item{
+  margin: 20rpx;
+  margin-bottom: 40rpx;
+  background-color: white;
+  height: 800rpx;
+}
+
+.commodityImage{
+  height: 80%;
+  width: 100%;
+}
+
+.msg{
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+}
+
+.commodityName{
+  font-size: 45rpx;
+  margin-bottom: 20rpx;
+}
+
+.commodityType{
+  font-size: 32rpx;
+  color: rgb(65, 64, 64);
 }
