@@ -1,0 +1,24 @@
+<!-- pages/my-orders/index.wxml -->
+<view class="container">
+  <view class="top-bar">
+    <text>我的订单</text>
+  </view>
+  
+  <view class="tabs">
+    <view class="tab {{type === 'all' ? 'active' : ''}}" data-type="all" bindtap="changeType">全部</view>
+    <view class="tab {{type === 'unpaid' ? 'active' : ''}}" data-type="unpaid" bindtap="changeType">待支付</view>
+    <view class="tab {{type === 'unshipped' ? 'active' : ''}}" data-type="unshipped" bindtap="changeType">待发货</view>
+    <view class="tab {{type === 'unreceived' ? 'active' : ''}}" data-type="unreceived" bindtap="changeType">待收货</view>
+    <view class="tab {{type === 'completed' ? 'active' : ''}}" data-type="completed" bindtap="changeType">已完成</view>
+  </view>
+
+  <view class="no-data" wx:if="{{!hasData}}">暂无相关订单</view>
+  <view class="order-list" wx:else>
+    <block wx:for="{{orderList}}" wx:key="id">
+      <view class="order-item">
+        <view class="order-title">{{item.title}}</view>
+        <view class="order-status">{{item.status}}</view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -3,7 +3,10 @@
     "pages/Store/Store",
     "pages/Show/Show",
     "pages/Artists/Artists",
-    "pages/User/User"
+    "pages/User/User",
+    "pages/Goods/Goods",
+    "pages/Book/Book",
+    "pages/Showorders/Showorders"
   ],
   "window": {
     "navigationBarTextStyle": "black",
