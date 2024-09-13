@@ -1,0 +1,75 @@
+/* pages/another_pages/another_pages.wxss */
+.container {
+  padding: 20rpx;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.avatar-image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx; /* 圆形头像 */
+  object-fit: cover;
+}
+
+.artist-name {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+
+.artist-description {
+  font-size: 22rpx;
+  color: #888;
+  text-align: center;
+  margin-top: 10rpx;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.artist-item {
+  width: 45%;
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+
+.circle-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.work-name {
+  font-size: 24rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+
+.work-intro {
+  font-size: 20rpx;
+  color: #666;
+}
+
+.end-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.end-text {
+  font-style: italic;
+  font-size: 24rpx;
+  color: #999;
+}
