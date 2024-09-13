@@ -1,4 +1,4 @@
-// pages/Show/Show.js
+// pages/Artists/Artists.js
 Page({
 
   /**
