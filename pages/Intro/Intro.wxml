@@ -1,0 +1,27 @@
+<!-- pages/another_pages/another_pages.wxml -->
+<view class="container">
+  <!-- 艺术家信息展示 -->
+  <view class="artist-card">
+    <image src="../../image/artists/Artist 1.jpg" alt="artist" class="avatar-image"></image>
+    <text class="artist-name">{{artist.name}}</text>
+    <text class="artist-description">{{artist.description}}</text>
+  </view>
+
+  <!-- 作品列表展示 -->
+  <view class="works-list">
+    <block wx:for="{{works}}" wx:key="id">
+      <view class="artist-item">
+        <image src="{{item.imgSrc}}" class="circle-image" />
+        <text class="work-name">{{item.name}}</text>
+        <text class="work-intro">{{item.intro}}</text>
+      </view>
+    </block>
+  </view>
+
+  <!-- END 标记 -->
+  <view class="end-marker">
+    <text>——</text>
+    <text class="end-text">END</text>
+    <text>——</text>
+  </view>
+</view>
