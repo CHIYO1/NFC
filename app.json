@@ -1,20 +1,13 @@
 {
   "pages": [
-<<<<<<< HEAD
-    "pages/home/home",
-    "pages/show/show",
-    "pages/art/art",
-    "pages/my/my"
-=======
     "pages/Store/Store",
     "pages/Store_item/Store_item",
-    "pages/Show/Show",
+    "pages/Show/show",
     "pages/Artists/Artists",
     "pages/User/User",
     "pages/Goods/Goods",
     "pages/Book/Book",
     "pages/Showorders/Showorders"
->>>>>>> 2c2a61f9f8905ae922b502190f909779ff5ad8f4
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -22,32 +15,6 @@
     "navigationBarBackgroundColor": "#ffffff"
   },
   "tabBar": {
-<<<<<<< HEAD
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "商店" ,
-      "iconPath": "/images/shangdian.png",
-      "selectedIconPath": "/images/shangdian-acitve.png"
-    },
-    {
-      "pagePath": "pages/show/show",
-      "text": "展览",
-      "iconPath": "/images/zhanlan.png",
-      "selectedIconPath": "/images/zhanlan-acitve.png"
-    },
-    {
-      "pagePath": "pages/art/art",
-      "text": "艺术家",
-      "iconPath": "/images/art.png",
-      "selectedIconPath": "/images/my-active.png"
-    },{
-      "pagePath": "pages/my/my",
-      "text": "我的",
-      "iconPath": "/images/my.png",
-      "selectedIconPath": "/images/my-active.png"
-    }
-  ]
-=======
     "color": "#707070",
     "selectedColor": "#1296db",
     "borderStyle": "white",
@@ -59,7 +26,7 @@
         "text": "商店"
       },
       {
-        "pagePath": "pages/Show/Show",
+        "pagePath": "pages/Show/show",
         "iconPath": "image/tabBar/show.png",
         "selectedIconPath":"image/tabBar/show.png",
         "text": "展览"
@@ -77,14 +44,9 @@
         "text": "我的"
       }
     ]
->>>>>>> 2c2a61f9f8905ae922b502190f909779ff5ad8f4
   },
   "style": "v2",
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2c2a61f9f8905ae922b502190f909779ff5ad8f4
