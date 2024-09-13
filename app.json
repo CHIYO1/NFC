@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/Store/Store",
+    "pages/Store_item/Store_item",
     "pages/Show/Show",
     "pages/Artists/Artists",
     "pages/User/User"

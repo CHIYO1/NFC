@@ -4,7 +4,7 @@
 </view>
 
 <scroll-view class="content" scroll-y>
-  <view class="item" wx:for="{{commoditys}}" wx:key="{{item.name}}">
+  <view class="item" wx:for="{{commoditys}}" wx:key="id" bind:tap="NavToDetail" data-item="{{item}}">
     <image src="{{item.path}}" class="commodityImage" />
     <view class="msg">
       <text class="commodityName">{{item.name}}</text>

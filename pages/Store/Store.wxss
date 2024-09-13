@@ -17,7 +17,7 @@
 
 .item{
   margin: 20rpx;
-  margin-bottom: 40rpx;
+  margin-bottom: 60rpx;
   background-color: white;
   height: 800rpx;
 }
