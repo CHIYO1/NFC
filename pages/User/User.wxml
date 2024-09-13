@@ -1,5 +1,30 @@
-<!--pages/User/User.wxml-->
+<!-- pages/user/index.wxml -->
 <view class="topNav">
   <image src="../../image/logo.png"></image>
 </view>
-<text>pages/User/User.wxml</text>
+<view class="container">
+  <!-- 用户头像 -->
+  <image src="../../image/user/default.png" class="avatar" mode="aspectFill"></image>
+  <!-- 用户信息 -->
+  <view class="user-info" >
+    <text class="username">{{username}}</text>
+    <text class="description">{{phoneNumber}}</text>
+  </view>
+
+  <!-- 导航栏 -->
+  <view class="navbar">
+      <navigator url="/pages/Goods/Goods" hover-class="navigator-hover" class="navitem">
+        <image src="../../image/user/icon_goods.png" class="navicon" mode="aspectFill"></image>
+        <view class="navtext">商品</view>
+      </navigator>
+      <navigator url="/pages/Showorders/Showorders" hover-class="navigator-hover" class="navitem">
+        <image src="../../image/user/icon_show.png" class="navicon" mode="aspectFill"></image>
+        <view class="navtext">展览</view>
+      </navigator>
+      
+      <navigator url="/pages/Book/Book" hover-class="navigator-hover" class="navitem">
+        <image src="../../image/user/icon_book.png" class="navicon" mode="aspectFill"></image>
+        <view class="navtext">预约</view>
+      </navigator>
+    </view>
+</view>
