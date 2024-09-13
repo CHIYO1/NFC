@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/show/show",
+    "pages/art/art",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "inner flow",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "商店" ,
+      "iconPath": "/images/shangdian.png",
+      "selectedIconPath": "/images/shangdian-acitve.png"
+    },
+    {
+      "pagePath": "pages/show/show",
+      "text": "展览",
+      "iconPath": "/images/zhanlan.png",
+      "selectedIconPath": "/images/zhanlan-acitve.png"
+    },
+    {
+      "pagePath": "pages/art/art",
+      "text": "艺术家",
+      "iconPath": "/images/art.png",
+      "selectedIconPath": "/images/my-active.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "/images/my.png",
+      "selectedIconPath": "/images/my-active.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

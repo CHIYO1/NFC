@@ -1,0 +1,77 @@
+/* pages/show/show.wxss */
+.title{
+  position:fixed;
+  top: 0;
+  z-index:1;
+  width: 100%;
+}
+.list{
+  margin-top: 480rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+  background-color: #fff;
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+}
+.list-item .navigator{
+  align-self:center;
+}
+.list .changguan{
+  height: 34rpx;
+  width: 90rpx;
+}
+.list .piaojia{
+  height: 34rpx;
+  width: 90rpx;
+}
+.zhanlan{
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 40rpx;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  padding: 4rpx;
+}
+
+page{
+  background-color: #efefef;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:5rpx;
+  margin: 20rpx;
+  background-color: #fff;
+  margin-top: 30rpx;
+  margin-bottom: 90rpx;
+}
+.container .text-1{
+  align-self:flex-start;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+}
+.container .image{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.container .text-2{
+  align-self:flex-start;
+  font-size: 27rpx;
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+}
+.container .text-3{
+  align-self:flex-start;
+  font-size: 35rpx;
+  margin-top: 25rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
