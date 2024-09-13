@@ -1,0 +1,57 @@
+/* pages/Artists/Artists.wxss */
+.topNav{
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+}
+
+.theIntro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.artist-item {
+  width: 48%;
+  height: 200px;
+  margin-bottom: 20rpx;
+  flex-direction: column;
+  align-items: center;
+  border-style:solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+}
+
+.topNav image{
+  height: 120rpx;
+  width: 350rpx;
+}
+
+.circle-image {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  display: block;
+}
+
+.artist-name {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #333;
+  text-align: center;
+}
+
+.navigator-hover {
+  color:blue;
+}
+
+.other-navigator-hover {
+  color:red;
+}

@@ -1,0 +1,23 @@
+<!--pages/Showorders/Showorders.wxml-->
+<view class="container">
+  <view class="top-bar">
+    <text>展览订单</text>
+  </view>
+  
+  <view class="tabs">
+    <view class="tab {{type === 'all' ? 'active' : ''}}" data-type="all" bindtap="changeType">全部</view>
+    <view class="tab {{type === 'unpaid' ? 'active' : ''}}" data-type="unpaid" bindtap="changeType">待支付</view>
+    <view class="tab {{type === 'unshipped' ? 'active' : ''}}" data-type="unshipped" bindtap="changeType">已付款</view>
+    <view class="tab {{type === 'completed' ? 'active' : ''}}" data-type="completed" bindtap="changeType">已完成</view>
+  </view>
+
+  <view class="no-data" wx:if="{{!hasData}}">暂无展览订单</view>
+  <view class="order-list" wx:else>
+    <block wx:for="{{orderList}}" wx:key="id">
+      <view class="order-item">
+        <view class="order-title">{{item.title}}</view>
+        <view class="order-status">{{item.status}}</view>
+      </view>
+    </block>
+  </view>
+</view>

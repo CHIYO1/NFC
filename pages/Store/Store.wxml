@@ -1,0 +1,14 @@
+<!--pages/Store/Store.wxml-->
+<view class="topNav">
+  <image src="../../image/logo.png"></image>
+</view>
+
+<scroll-view class="content" scroll-y>
+  <view class="item" wx:for="{{commoditys}}" wx:key="id" bind:tap="NavToDetail" data-item="{{item}}">
+    <image src="{{item.path}}" class="commodityImage" />
+    <view class="msg">
+      <text class="commodityName">{{item.name}}</text>
+      <text class="commodityType">{{item.type}}</text>
+    </view>
+  </view>
+</scroll-view>

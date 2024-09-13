@@ -1,0 +1,22 @@
+<!-- pages/Artists/Artists.wxml -->
+<view class="topNav">
+  <image src="../../image/logo.png"></image>
+</view>
+
+<view class="theIntro">
+  <!-- 动态渲染图片，并使用 wx:navigator 跳转 -->
+  <block wx:for="{{artists}}" wx:key="id">
+    <view class="artist-item">
+    <span>
+      <navigator url="/pages/Intro/Intro?id={{item.id}}">
+        <image src="{{item.imgSrc}}" class="circle-image" />
+      </navigator>
+    </span>
+      <!-- 显示作者名 -->
+      <text class="artist-name">
+        {{item.author}}
+      </text>
+      
+    </view>
+  </block>
+</view>

@@ -1,0 +1,91 @@
+/* pages/user/index.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20rpx;
+}
+
+.avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+
+.user-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+  border-top-width: 0rpx;
+  border-top-style: solid;
+  border-top-color: #e5e5e5;
+}
+
+.navitem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300rpx;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  /* border: 1rpx solid #e5e5e5; */
+  transition: all 0.3s ease-in-out;
+}
+
+.navicon {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 10rpx;
+}
+
+.bottom-text {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.username {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.phone-number {
+  font-size: 28rpx;
+  color: #666;
+}
+
+.topNav{
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+}
+
+.topNav image{
+  height: 120rpx;
+  width: 350rpx;
+}
+
+.description {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+}
+
+.button {
+  width: 80%;
+}
