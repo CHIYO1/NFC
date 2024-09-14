@@ -1,5 +1,7 @@
 <!--pages/show/show.wxml-->
-<view class="title"><image src="/image/Show/1.png" class="img" mode="heightFix"/></view>
+<view class="topNav">
+  <image src="../../image/logo.png"></image>
+</view>
 <view>
   <view class="list">
   <view class="list-item">
