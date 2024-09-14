@@ -1,13 +1,13 @@
 <!--pages/show/show.wxml-->
-<view class="title"><image src="/images/1.png" class="img" mode="heightFix"/></view>
+<view class="title"><image src="/image/Show/1.png" class="img" mode="heightFix"/></view>
 <view>
   <view class="list">
   <view class="list-item">
-    <image src="/images/2.png" class="changguan" mode="widthFix"/>
+    <image src="/image/Show/2.png" class="changguan" mode="widthFix"/>
     <navigator url="/pages/my/my" class="navigator" open-type="navigate">场馆预约</navigator>
   </view>
     <view  class="list-item">
-      <image src="/images/3.png" class="piaojia" mode="widthFix" />
+      <image src="/image/Show/3.png" class="piaojia" mode="widthFix" />
       <navigator url="/pages/my/my" class="navigator" open-type="navigate">我的票价</navigator>
     </view>
   </view>
@@ -18,14 +18,14 @@
 </view>
 
 <view class="container">
-  <image src="/images/zhanlan-1.png" class="image" mode="widthFix"/>
+  <image src="/image/Show/zhanlan-1.png" class="image" mode="widthFix"/>
   <text class="text-1">崭新的 BRAND NEW</text>
   <text class="text-2">2023.09.27 - 2023.10.29</text>
   <text class="text-3">￥10 - 20</text>
 </view>
 
 <view class="container">
-  <image src="/images/zhanlan-2.png" class="image" mode="widthFix"/>
+  <image src="/image/Show/zhanlan-2.png" class="image" mode="widthFix"/>
   <text class="text-1">房间里的大象 Eephant in the Room</text>
   <text class="text-2">2022.07.23 - 2022.08.16</text>
   <text class="text-3">￥--</text>
@@ -33,7 +33,7 @@
 
 
 <view class="container">
-  <image src="/images/zhanlan-3.png" class="image" mode="widthFix"/>
+  <image src="/image/Show/zhanlan-3.png" class="image" mode="widthFix"/>
   <text class="text-1">白日梦游 Dream White</text>
   <text class="text-2">2022.03.12 - 2022.04.10</text>
   <text class="text-3">免费</text>
