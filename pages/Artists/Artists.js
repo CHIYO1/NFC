@@ -12,12 +12,14 @@ Page({
     ArtistList: [], // 用于存储请求到的数据
     isLoading: false, // 防止重复加载
     artists: [
-      { id: 1, imgSrc: '../../image/artists/Artist 2.jpg', author: 'Artist 1' },
-      { id: 2, imgSrc: '../../image/artists/Artist 3.png', author: 'Artist 2' },
-      { id: 3, imgSrc: '../../image/artists/Artist 1.jpg', author: 'Artist 3' },
-      { id: 4, imgSrc: '../../image/artists/Artist 4.jpg', author: 'Artist 4' },
-      { id: 5, imgSrc: '../../image/artists/Artist 6.png', author: 'Artist 5' },
-      { id: 6, imgSrc: '../../image/artists/Artist 5.jpg', author: 'Artist 6' }
+      { id: 1, imgSrc: '../../image/artists/Artist_2.jpg', author: 'Artist 1' },
+      { id: 2, imgSrc: '../../image/artists/Artist_3.jpg', author: 'Artist 2' },
+      { id: 3, imgSrc: '../../image/artists/Artist_1.jpg', author: 'Artist 3' },
+      { id: 4, imgSrc: '../../image/artists/Artist_4.jpg', author: 'Artist 4' },
+      { id: 5, imgSrc: '../../image/artists/Artist_6.jpg', author: 'Artist 5' },
+      { id: 6, imgSrc: '../../image/artists/Artist_5.jpg', author: 'Artist 6' },
+      { id: 7, imgSrc: '../../image/artists/Artist_2.jpg', author: 'Artist 7' },
+      { id: 8, imgSrc: '../../image/artists/Artist_3.jpg', author: 'Artist 8' }
     ]
   },
 
@@ -40,8 +42,8 @@ Page({
     setTimeout(() => {
       const newArtists = [
         // 可以设置从服务器上一次性读取多少个数据
-        { id: 7, imgSrc: '../../image/artists/Artist 2.jpg', author: 'Artist 7' },
-        { id: 8, imgSrc: '../../image/artists/Artist 3.png', author: 'Artist 8' }
+        { id: 7, imgSrc: '../../image/artists/Artist_2.jpg', author: 'Artist 7' },
+        { id: 8, imgSrc: '../../image/artists/Artist_3.jpg', author: 'Artist 8' }
       ];
       this.num+=newArtists.length;
       // 合并现有的数据与新数据
@@ -97,11 +99,5 @@ Page({
   /**
    * 点击作者名跳转到介绍页面
    */
-  goToAuthorPage(e) {
-    const id = e.currentTarget.dataset.id; // 获取当前点击的作者 ID
-    wx.navigateTo({
-      url: `/pages/Author/Author?id=${id}` // 跳转到作者介绍页面，携带作者的 ID
-    });
-  },
    
 });

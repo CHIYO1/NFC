@@ -37,17 +37,24 @@
 }
 
 .artist-item {
-  width: 45%;
+  width: 100%;
   margin-bottom: 20rpx;
+  height: 300px;
   text-align: center;
 }
 
-.circle-image {
+.artist-item image{
   width: 100%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
+  height: 80%;
 }
+
+.circle-image {
+  max-width: 100%;   /* 图片最大宽度不超过容器宽度 */
+  max-height: 100%;  /* 图片最大高度不超过容器高度 */
+  /* border-radius: 50%;  将图片设为圆形 */
+  object-fit: cover;   /* 保持图片比例，填充容器 */
+}
+
 
 .work-name {
   font-size: 24rpx;

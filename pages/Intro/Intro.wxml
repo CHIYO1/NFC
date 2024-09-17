@@ -2,7 +2,7 @@
 <view class="container">
   <!-- 艺术家信息展示 -->
   <view class="artist-card">
-    <image src="../../image/artists/Artist 1.jpg" alt="artist" class="avatar-image"></image>
+    <image src="../../image/artists/Artist_{{artist.id}}.jpg" alt="artist" class="avatar-image"></image>
     <text class="artist-name">{{artist.name}}</text>
     <text class="artist-description">{{artist.description}}</text>
   </view>

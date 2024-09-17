@@ -19,11 +19,11 @@ Page({
 
     // 模拟作品数据
     const works = [
-      { id: 1, imgSrc: "image/artists/Artist 1.jpg", name: "\ntest1", intro: "\nIntroduction1" },
-      { id: 2, imgSrc: "image/artists/Artist 2.jpg", name: "\ntest2", intro: "\nIntroduction2" },
-      { id: 3, imgSrc: "image/artists/Artist 3.jpg", name: "\ntest3", intro: "\nIntroduction3" },
-      { id: 4, imgSrc: "image/artists/Artist 4.jpg", name: "\ntest4", intro: "\nIntroduction4" },
-      { id: 5, imgSrc: "image/artists/Artist 5.jpg", name: "\ntest5", intro: "\nIntroduction5" }
+      { id: 1, imgSrc: "../../image/artists/Artist_1.jpg", name: "\ntest1", intro: "\nIntroduction1" },
+      { id: 2, imgSrc: "../../image/artists/Artist_2.jpg", name: "\ntest2", intro: "\nIntroduction2" },
+      { id: 3, imgSrc: "../../image/artists/Artist_3.jpg", name: "\ntest3", intro: "\nIntroduction3" },
+      { id: 4, imgSrc: "../../image/artists/Artist_4.jpg", name: "\ntest4", intro: "\nIntroduction4" },
+      { id: 5, imgSrc: "../../image/artists/Artist_5.jpg", name: "\ntest5", intro: "\nIntroduction5" }
     ];
 
     // 根据id找到对应的艺术家信息
