@@ -1,12 +1,19 @@
 /* pages/show/show.wxss */
-.title{
+.topNav{
   position:fixed;
   top: 0;
   z-index:1;
   width: 100%;
+  background-color: #fff;
 }
+
+.topNav image{
+  height: 120rpx;
+  width: 350rpx;
+}
+
 .list{
-  margin-top: 480rpx;
+  margin-top: 128rpx;
   display: flex;
   flex-direction: row;
   justify-content:space-around;
