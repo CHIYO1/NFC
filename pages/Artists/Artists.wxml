@@ -4,19 +4,12 @@
 </view>
 
 <view class="theIntro">
-  <!-- 动态渲染图片，并使用 wx:navigator 跳转 -->
   <block wx:for="{{artists}}" wx:key="id">
-    <view class="artist-item">
-    <span>
-      <navigator url="/pages/Intro/Intro?id={{item.id}}">
+    <view class="artist-item" data-id="{{item.id}}" bindtap="goToIntroPage">
+      <span>
         <image src="{{item.imgSrc}}" class="circle-image" />
-      </navigator>
-    </span>
-      <!-- 显示作者名 -->
-      <text class="artist-name">
-        {{item.author}}
-      </text>
-      
+      </span>
+      <text class="artist-name">{{item.author}}</text>
     </view>
   </block>
 </view>

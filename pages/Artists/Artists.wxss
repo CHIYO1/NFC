@@ -32,8 +32,8 @@
 }
 
 .circle-image {
-  height: 100rpx;
-  width: 100rpx;
+  height: 150rpx;
+  width: 150rpx;
   border-radius: 50%;
   object-fit: cover;
   overflow: hidden;
@@ -42,7 +42,7 @@
 
 .artist-name {
   margin-top: 10rpx;
-  font-size: 28rpx;
+  font-size: 30rpx;
   color: #333;
   text-align: center;
 }

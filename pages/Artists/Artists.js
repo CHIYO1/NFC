@@ -94,7 +94,7 @@ Page({
     wx.navigateTo({
       url: `/pages/Intro/Intro?id=${id}` // 跳转到介绍页面，携带图片的 ID
     });
-  },
+  }
 
   /**
    * 点击作者名跳转到介绍页面
