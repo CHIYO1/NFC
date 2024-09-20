@@ -1,0 +1,42 @@
+<!--pages/BRANDNEW/BRANDNEW.wxml-->
+<view >
+  <swiper indicator-dots circular indicator-color="white" indicator-active-color="white"  class="swiper">
+    <swiper-item>
+      <image class="Carouselmap" src="/image/Show/Details/BRANDNEW/Carousel map.png" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="container">
+      <image src="/image/Show/Details/BRANDNEW/BRANDNEW.png" mode="heightFix" class="image"/>
+    <view class="title">
+      <text class="text">崭新的 BRAND NEW</text>
+      <view class="content">
+        <text class="text">￥10 - 20</text>
+        <text>转发</text>
+      </view>
+    </view>
+  </view>
+
+<view class="time">
+  <text>2023.09.27 - 2023.10.29</text>
+</view>
+
+<view class="container2">
+  <view class="location">
+    <text>inner flow Gallery</text>
+    <text class="container2-text2">北京市朝阳区酒仙桥路2号798东街/798艺术中心广场路口D区</text>
+  </view>
+
+  <view class="navigator">
+    <image  class="navigate" src="/image/Show/Details/BRANDNEW/navigate.png" mode="widthFix"/>
+  </view>
+</view>
+
+<view class="btn">
+  <text class="text1">已结束</text>
+</view>
+
+
+
+ 
